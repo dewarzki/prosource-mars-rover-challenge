@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "b9e94921-cb81-4140-a0c3-7d645dbefa29",
+		"name": "Prosource Hover Challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2365980"
+	},
+	"item": [
+		{
+			"name": "Hover Control",
+			"item": [
+				{
+					"name": "command",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"input\": \"LMLMLMLMLM\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/rovercontrol/command",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"rovercontrol",
+								"command"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
