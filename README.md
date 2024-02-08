@@ -8,4 +8,4 @@ Step 4: find command post
 
 Step 5: send
 
-Congratulations, you are successfully program the movements of rover to the mars! Please see coordinates in response.
+Congratulations, you are successfully programmed the movements of rover to the mars! Please see coordinates in response.
