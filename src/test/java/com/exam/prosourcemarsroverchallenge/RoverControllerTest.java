@@ -1,4 +1,4 @@
-package com.example.prosourcemarsroverchallenge;
+package com.exam.prosourcemarsroverchallenge;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,8 +9,8 @@ import org.springframework.test.web.servlet.MockMvc;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import com.example.prosourcemarsroverchallenge.request.CoordinateRequest;
-import com.example.prosourcemarsroverchallenge.service.RoverService;
+import com.exam.prosourcemarsroverchallenge.request.CoordinateRequest;
+import com.exam.prosourcemarsroverchallenge.service.RoverService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 

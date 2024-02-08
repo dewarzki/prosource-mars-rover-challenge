@@ -1,4 +1,4 @@
-package com.example.prosourcemarsroverchallenge;
+package com.exam.prosourcemarsroverchallenge;
 
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertEquals;
@@ -9,13 +9,13 @@ import org.junit.Test;
 import org.mockito.InjectMocks;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.example.prosourcemarsroverchallenge.controller.RoverController;
-import com.example.prosourcemarsroverchallenge.enums.CardinalDirection;
-import com.example.prosourcemarsroverchallenge.enums.Code;
-import com.example.prosourcemarsroverchallenge.request.CoordinateRequest;
-import com.example.prosourcemarsroverchallenge.response.CoordinateResponse;
-import com.example.prosourcemarsroverchallenge.service.RoverService;
-import com.example.prosourcemarsroverchallenge.service.impl.RoverServiceImpl;
+import com.exam.prosourcemarsroverchallenge.controller.RoverController;
+import com.exam.prosourcemarsroverchallenge.enums.CardinalDirection;
+import com.exam.prosourcemarsroverchallenge.enums.Code;
+import com.exam.prosourcemarsroverchallenge.request.CoordinateRequest;
+import com.exam.prosourcemarsroverchallenge.response.CoordinateResponse;
+import com.exam.prosourcemarsroverchallenge.service.RoverService;
+import com.exam.prosourcemarsroverchallenge.service.impl.RoverServiceImpl;
  
 @SpringBootTest
 public class ProsourceMarsRoverChallengeApplicationTests {

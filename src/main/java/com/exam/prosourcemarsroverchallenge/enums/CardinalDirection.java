@@ -1,4 +1,4 @@
-package com.example.prosourcemarsroverchallenge.enums;
+package com.exam.prosourcemarsroverchallenge.enums;
 
 public enum CardinalDirection {
     N,

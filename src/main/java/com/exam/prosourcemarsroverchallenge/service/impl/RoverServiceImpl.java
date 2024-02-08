@@ -1,14 +1,14 @@
-package com.example.prosourcemarsroverchallenge.service.impl;
+package com.exam.prosourcemarsroverchallenge.service.impl;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.example.prosourcemarsroverchallenge.enums.CardinalDirection;
-import com.example.prosourcemarsroverchallenge.enums.Code;
-import com.example.prosourcemarsroverchallenge.request.CoordinateRequest;
-import com.example.prosourcemarsroverchallenge.response.CoordinateResponse;
-import com.example.prosourcemarsroverchallenge.service.RoverService;
+import com.exam.prosourcemarsroverchallenge.enums.CardinalDirection;
+import com.exam.prosourcemarsroverchallenge.enums.Code;
+import com.exam.prosourcemarsroverchallenge.request.CoordinateRequest;
+import com.exam.prosourcemarsroverchallenge.response.CoordinateResponse;
+import com.exam.prosourcemarsroverchallenge.service.RoverService;
 
 @Service
 public class RoverServiceImpl implements RoverService{

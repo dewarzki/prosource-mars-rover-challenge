@@ -1,4 +1,4 @@
-package com.example.prosourcemarsroverchallenge.request;
+package com.exam.prosourcemarsroverchallenge.request;
 
 import lombok.Getter;
 import lombok.Setter;

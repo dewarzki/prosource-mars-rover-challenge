@@ -1,6 +1,6 @@
-package com.example.prosourcemarsroverchallenge.response;
+package com.exam.prosourcemarsroverchallenge.response;
 
-import com.example.prosourcemarsroverchallenge.enums.CardinalDirection;
+import com.exam.prosourcemarsroverchallenge.enums.CardinalDirection;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

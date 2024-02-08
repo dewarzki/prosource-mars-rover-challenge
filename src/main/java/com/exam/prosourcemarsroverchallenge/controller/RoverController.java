@@ -1,4 +1,4 @@
-package com.example.prosourcemarsroverchallenge.controller;
+package com.exam.prosourcemarsroverchallenge.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.prosourcemarsroverchallenge.enums.CardinalDirection;
-import com.example.prosourcemarsroverchallenge.request.CoordinateRequest;
-import com.example.prosourcemarsroverchallenge.response.CoordinateResponse;
-import com.example.prosourcemarsroverchallenge.service.RoverService;
+import com.exam.prosourcemarsroverchallenge.enums.CardinalDirection;
+import com.exam.prosourcemarsroverchallenge.request.CoordinateRequest;
+import com.exam.prosourcemarsroverchallenge.response.CoordinateResponse;
+import com.exam.prosourcemarsroverchallenge.service.RoverService;
 
 @RestController
 @RequestMapping("/rovercontrol")

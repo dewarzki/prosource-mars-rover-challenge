@@ -1,11 +1,12 @@
-package com.example.prosourcemarsroverchallenge;
+package com.exam.prosourcemarsroverchallenge;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import static org.assertj.core.api.Assertions.assertThat;
 
-import com.example.prosourcemarsroverchallenge.controller.RoverController;
+import com.exam.prosourcemarsroverchallenge.controller.RoverController;
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
 public class SmokeTest {

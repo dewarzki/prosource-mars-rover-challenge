@@ -1,4 +1,4 @@
-package com.example.prosourcemarsroverchallenge;
+package com.exam.prosourcemarsroverchallenge;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
