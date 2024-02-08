@@ -1,4 +1,4 @@
-Step 1: mvn clean install\n
+Step 1: mvn clean install
 Step 2: run ProsourceMarsRoverChallengeApplication.java
 Step 3: from postman application, import Prosource Hover Challenge.postman_collection
 Step 4: find command post
